@@ -101,6 +101,7 @@ if (isset($response->shippingPolicyProfile)) {
         );
     }
 }
+```
 
 ## SDK and eBay API versions.
 
