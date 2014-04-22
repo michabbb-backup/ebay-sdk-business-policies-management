@@ -1,6 +1,6 @@
 # EBAY-SDK-BUSINESS-POLICIES-MANAGEMENT
 
-[![Build Status](https://travis-ci.org/davidtsadler/ebay-sdk-business-policies-management.png?branch=develop)](https://travis-ci.org/davidtsadler/ebay-sdk-business-policies-management)
+[![Build Status](https://travis-ci.org/davidtsadler/ebay-sdk-business-policies-management.png?branch=master)](https://travis-ci.org/davidtsadler/ebay-sdk-business-policies-management)
 
 An eBay SDK for PHP. Use the eBay Business Policies Management API in your PHP projects.
 
