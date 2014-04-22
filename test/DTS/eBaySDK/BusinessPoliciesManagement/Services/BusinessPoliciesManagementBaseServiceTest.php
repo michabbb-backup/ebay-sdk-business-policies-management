@@ -1,14 +1,12 @@
 <?php
-
 use DTS\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementBaseService;
+use DTS\eBaySDK\Mocks\HttpClient;
 
 class BusinessPoliciesManagementBaseServiceTest extends \PHPUnit_Framework_TestCase
 {
-    private $obj;
-
     protected function setUp()
     {
-        $this->obj = new BusinessPoliciesManagementBaseService();
+        $this->obj = new BusinessPoliciesManagementBaseService(new HttpClient());
     }
 
     public function testCanBeCreated()
