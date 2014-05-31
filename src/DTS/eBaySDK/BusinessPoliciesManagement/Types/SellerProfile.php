@@ -24,7 +24,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  * @property string $profileDesc
  * @property integer $profileId
  * @property string $profileName
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\ProfileType(string) $profileType
+ * @property DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType(string) $profileType
  * @property integer $profileVersion
  * @property integer $siteId
  */
