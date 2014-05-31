@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\AckValue(string) $ack
+ * @property DTS\eBaySDK\BusinessPoliciesManagement\Enums\AckValue(string) $ack
  * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\ErrorMessage $errorMessage
  * @property DateTime $timestamp
  * @property string $version

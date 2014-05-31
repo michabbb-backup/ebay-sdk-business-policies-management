@@ -35,7 +35,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $packagingHandlingCosts
  * @property string $shipToLocations
  * @property string $shippingOption
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\IsoCurrencyCode(string) $shippingPolicyCurrency
+ * @property DTS\eBaySDK\BusinessPoliciesManagement\Enums\IsoCurrencyCode(string) $shippingPolicyCurrency
  * @property string $shippingPolicyName
  * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo $shippingProfileDiscountInfo
  */

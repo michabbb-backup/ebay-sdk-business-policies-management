@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  * @property boolean $includeDetails
  * @property integer $profileId
  * @property string $profileName
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\ProfileType(string) $profileType
+ * @property DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType(string) $profileType
  */
 class GetSellerProfilesRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest
 {
