@@ -22,7 +22,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Enums;
  */
 class ConsolidationJobStatus
 {
-    const COMPLETE = 'Complete';
-    const FAILED = 'Failed';
-    const RUNNING = 'Running';
+    const C_COMPLETE = 'Complete';
+    const C_FAILED = 'Failed';
+    const C_RUNNING = 'Running';
 }

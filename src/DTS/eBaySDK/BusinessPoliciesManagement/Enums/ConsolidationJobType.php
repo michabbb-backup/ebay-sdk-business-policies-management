@@ -22,5 +22,5 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Enums;
  */
 class ConsolidationJobType
 {
-    const SHIPPING_PROFILES_CONSOLIDATION = 'ShippingProfilesConsolidation';
+    const C_SHIPPING_PROFILES_CONSOLIDATION = 'ShippingProfilesConsolidation';
 }
