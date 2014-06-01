@@ -22,10 +22,10 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Enums;
  */
 class ShippingRateType
 {
-    const DAILY_PICKUP = 'DailyPickup';
-    const FEDEX_COUNTER = 'FedexCounter';
-    const FEDEX_STANDARD_LIST = 'FedexStandardList';
-    const ON_DEMAND = 'OnDemand';
-    const USPS_COMMERCIAL_PLUS = 'USPSCommercialPlus';
-    const USPS_DISCOUNTED = 'USPSDiscounted';
+    const C_DAILY_PICKUP = 'DailyPickup';
+    const C_FEDEX_COUNTER = 'FedexCounter';
+    const C_FEDEX_STANDARD_LIST = 'FedexStandardList';
+    const C_ON_DEMAND = 'OnDemand';
+    const C_USPS_COMMERCIAL_PLUS = 'USPSCommercialPlus';
+    const C_USPS_DISCOUNTED = 'USPSDiscounted';
 }
