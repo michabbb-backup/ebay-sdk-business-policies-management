@@ -20,12 +20,12 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Services;
 class BusinessPoliciesManagementService extends \DTS\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementBaseService
 {
     /**
+     * @param array $config Optional configuration option values.
      * @param \DTS\eBaySDK\Interfaces\HttpClientInterface $httpClient The object that will handle sending requests to the API.
-     * @param array $config Optional configuration option values. 
      */
-    public function __construct(\DTS\eBaySDK\Interfaces\HttpClientInterface $httpClient, $config = array())
+    public function __construct($config = array(), \DTS\eBaySDK\Interfaces\HttpClientInterface $httpClient = null)
     {
-        parent::__construct($httpClient, $config);
+        parent::__construct($config, $httpClient);
     }
 
     /**
