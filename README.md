@@ -54,10 +54,9 @@ require 'vendor/autoload.php';
 use \DTS\eBaySDK\BusinessPoliciesManagement\Services\BusinessPoliciesManagementService;
 use \DTS\eBaySDK\BusinessPoliciesManagement\Types\GetSellerProfilesRequest;
 use \DTS\eBaySDK\Constants\GlobalIds;
-use \DTS\eBaySDK\HttpClient\HttpClient;
 
 // Instantiate an eBay service.
-$service = new BusinessPoliciesManagementService(new HttpClient(), array(
+$service = new BusinessPoliciesManagementService(array(
     'authToken' => <a valid authorization token>,
     'globalId' => GlobalIds::US
 ));

@@ -31,10 +31,10 @@ class BusinessPoliciesManagementBaseService extends \DTS\eBaySDK\Services\BaseSe
     const HDR_SERVICE_NAME = 'X-EBAY-SOA-SERVICE-NAME';
 
     /**
-     * @param \DTS\eBaySDK\Interfaces\HttpClientInterface $httpClient The object that will handle sending requests to the API.
      * @param array $config Optional configuration option values.
+     * @param \DTS\eBaySDK\Interfaces\HttpClientInterface $httpClient The object that will handle sending requests to the API.
      */
-    public function __construct(\DTS\eBaySDK\Interfaces\HttpClientInterface $httpClient, $config = array())
+    public function __construct($config = array(), \DTS\eBaySDK\Interfaces\HttpClientInterface $httpClient = null)
     {
         if (!array_key_exists(get_called_class(), self::$configOptions)) {
             self::$configOptions[get_called_class()] = array(
@@ -44,7 +44,7 @@ class BusinessPoliciesManagementBaseService extends \DTS\eBaySDK\Services\BaseSe
             );
         }
 
-        parent::__construct($httpClient, 'https://svcs.ebay.com/services/selling/v1/SellerProfilesManagementService', 'http://svcs.sandbox.ebay.com/services/selling/v1/SellerProfilesManagementService', $config);
+        parent::__construct('https://svcs.ebay.com/services/selling/v1/SellerProfilesManagementService', 'http://svcs.sandbox.ebay.com/services/selling/v1/SellerProfilesManagementService', $config, $httpClient);
     }
 
     /**
