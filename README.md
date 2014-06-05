@@ -71,7 +71,7 @@ $response = $service->getSellerProfiles($request);
 // Output the response from the API.
 if (isset($response->paymentProfileList)) {
     echo "================\nPayment Profiles\n================\n";
-    foreach ($response->paymentProfileList->paymentProfile as $profile) {
+    foreach ($response->paymentProfileList->PaymentProfile as $profile) {
         printf("(%s) %s: %s\n",
             $profile->profileId,
             $profile->profileName,
@@ -82,7 +82,7 @@ if (isset($response->paymentProfileList)) {
 
 if (isset($response->returnPolicyProfileList)) {
     echo "\n======================\nReturn Policy Profiles\n======================\n";
-    foreach ($response->returnPolicyProfileList->returnPolicyProfile as $profile) {
+    foreach ($response->returnPolicyProfileList->ReturnPolicyProfile as $profile) {
         printf("(%s) %s: %s\n",
             $profile->profileId,
             $profile->profileName,
@@ -93,7 +93,7 @@ if (isset($response->returnPolicyProfileList)) {
 
 if (isset($response->shippingPolicyProfile)) {
     echo "\n========================\nShipping Policy Profiles\n========================\n";
-    foreach ($response->shippingPolicyProfile->shippingPolicyProfile as $profile) {
+    foreach ($response->shippingPolicyProfile->ShippingPolicyProfile as $profile) {
         printf("(%s) %s: %s\n",
             $profile->profileId,
             $profile->profileName,
