@@ -21,7 +21,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  *
  * @property string $acceptedPaymentMethod
  * @property integer $daysToFullPayment
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\DepositDetails $depositDetails
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\DepositDetails $depositDetails
  * @property boolean $immediatePay
  * @property string $paymentInstructions
  * @property string $paypalEmailAddress

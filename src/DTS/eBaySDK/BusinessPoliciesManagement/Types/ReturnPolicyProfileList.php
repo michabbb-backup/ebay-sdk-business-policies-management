@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfile $ReturnPolicyProfile
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfile $ReturnPolicyProfile
  */
 class ReturnPolicyProfileList extends \DTS\eBaySDK\Types\BaseType
 {

@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 /**
  *
  * @property integer $daysToFullPayment
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $depositAmount
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $depositAmount
  * @property integer $hoursToDeposit
  */
 class DepositDetails extends \DTS\eBaySDK\Types\BaseType

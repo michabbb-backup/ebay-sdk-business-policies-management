@@ -20,15 +20,15 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 /**
  *
  * @property boolean $buyerResponsibleForShipping
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $codFee
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $codFee
  * @property boolean $fastShipping
  * @property boolean $freeShipping
  * @property string $shipToLocation
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingOverrideFee
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingOverrideFee
  * @property string $shippingService
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceAdditionalCost
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceCost
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingSurcharge
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceAdditionalCost
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceCost
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingSurcharge
  * @property string $shippingType
  * @property integer $sortOrderId
  */

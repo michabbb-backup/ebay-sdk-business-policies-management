@@ -21,14 +21,14 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  *
  * @property boolean $buyerResponsibleForPickup
  * @property boolean $buyerResponsibleForShipping
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $codFee
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $codFee
  * @property boolean $fastShipping
  * @property boolean $freeShipping
  * @property string $shipToLocation
  * @property string $shippingService
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceAdditionalCost
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceCost
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingSurcharge
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceAdditionalCost
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceCost
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingSurcharge
  * @property integer $sortOrderId
  */
 class ShippingPolicyInfoService extends \DTS\eBaySDK\Types\BaseType

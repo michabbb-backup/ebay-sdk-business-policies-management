@@ -19,12 +19,12 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroups $categoryGroups
- * @property DateTime $deletedDate
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroups $categoryGroups
+ * @property \DateTime $deletedDate
  * @property string $profileDesc
  * @property integer $profileId
  * @property string $profileName
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType(string) $profileType
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType(string) $profileType
  * @property integer $profileVersion
  * @property integer $siteId
  */
