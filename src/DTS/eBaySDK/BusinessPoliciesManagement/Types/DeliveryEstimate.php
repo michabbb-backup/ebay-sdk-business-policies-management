@@ -23,11 +23,11 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  * @property integer $maxActualDelivery
  * @property integer $maxConfidence
  * @property integer $maxDelivery
- * @property DateTime $maxDeliveryDate
+ * @property \DateTime $maxDeliveryDate
  * @property integer $minActualDelivery
  * @property integer $minConfidence
  * @property integer $minDelivery
- * @property DateTime $minDeliveryDate
+ * @property \DateTime $minDeliveryDate
  */
 class DeliveryEstimate extends \DTS\eBaySDK\Types\BaseType
 {

@@ -20,7 +20,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 /**
  *
  * @property string $contentType
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\PositiveInteger $id
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\PositiveInteger $id
  * @property string $value
  * @property string $version
  */

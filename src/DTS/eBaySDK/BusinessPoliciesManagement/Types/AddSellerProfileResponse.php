@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile $paymentProfile
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfile $returnPolicyProfile
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfile $shippingPolicyProfile
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile $paymentProfile
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ReturnPolicyProfile $returnPolicyProfile
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyProfile $shippingPolicyProfile
  */
 class AddSellerProfileResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
 {

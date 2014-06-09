@@ -23,21 +23,21 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  * @property integer $dispatchTimeMax
  * @property string $dispatchTimeReason
  * @property string $domesticRateTable
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService $domesticShippingPolicyInfoService
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService $domesticShippingPolicyInfoService
  * @property string $domesticShippingType
  * @property string $excludeShipToLocation
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\FreightShipping $freightShipping
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Insurance $insurance
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $internationalPackagingHandlingCosts
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\FreightShipping $freightShipping
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Insurance $insurance
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $internationalPackagingHandlingCosts
  * @property string $intlRateTable
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService $intlShippingPolicyInfoService
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingPolicyInfoService $intlShippingPolicyInfoService
  * @property string $intlShippingType
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $packagingHandlingCosts
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $packagingHandlingCosts
  * @property string $shipToLocations
  * @property string $shippingOption
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Enums\IsoCurrencyCode(string) $shippingPolicyCurrency
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\IsoCurrencyCode(string) $shippingPolicyCurrency
  * @property string $shippingPolicyName
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo $shippingProfileDiscountInfo
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\ShippingProfileDiscountInfo $shippingProfileDiscountInfo
  */
 class ShippingPolicyInfo extends \DTS\eBaySDK\Types\BaseType
 {

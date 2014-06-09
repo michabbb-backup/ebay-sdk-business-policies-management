@@ -19,9 +19,9 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $domesticInsuranceFee
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $domesticInsuranceFee
  * @property string $domesticInsuranceOption
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $intlInsuranceFee
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $intlInsuranceFee
  * @property string $intlInsuranceOption
  */
 class Insurance extends \DTS\eBaySDK\Types\BaseType

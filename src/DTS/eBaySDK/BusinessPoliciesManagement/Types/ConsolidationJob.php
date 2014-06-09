@@ -20,8 +20,8 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 /**
  *
  * @property integer $JobId
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Enums\ConsolidationJobStatus(string) $JobStatus
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Enums\ConsolidationJobType(string) $JobType
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\ConsolidationJobStatus(string) $JobStatus
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\ConsolidationJobType(string) $JobType
  * @property integer $SiteId
  */
 class ConsolidationJob extends \DTS\eBaySDK\Types\BaseType

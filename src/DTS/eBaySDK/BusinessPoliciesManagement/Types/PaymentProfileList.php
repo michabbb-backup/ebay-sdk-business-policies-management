@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile $PaymentProfile
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\PaymentProfile $PaymentProfile
  */
 class PaymentProfileList extends \DTS\eBaySDK\Types\BaseType
 {
