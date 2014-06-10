@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfileResponseStatus $sellerProfileResponseStatus
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\SellerProfileResponseStatus[] $sellerProfileResponseStatus
  */
 class RemoveSellerProfilesResponse extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseResponse
 {

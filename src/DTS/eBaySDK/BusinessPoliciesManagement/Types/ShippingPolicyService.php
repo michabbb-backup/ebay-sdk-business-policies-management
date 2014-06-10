@@ -23,7 +23,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
  * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $codFee
  * @property boolean $fastShipping
  * @property boolean $freeShipping
- * @property string $shipToLocation
+ * @property string[] $shipToLocation
  * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingOverrideFee
  * @property string $shippingService
  * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\Amount $shippingServiceAdditionalCost
