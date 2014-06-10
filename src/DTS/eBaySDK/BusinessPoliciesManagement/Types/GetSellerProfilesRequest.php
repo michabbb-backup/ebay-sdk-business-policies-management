@@ -20,9 +20,9 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 /**
  *
  * @property boolean $includeDetails
- * @property integer $profileId
- * @property string $profileName
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType(string) $profileType
+ * @property integer[] $profileId
+ * @property string[] $profileName
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Enums\ProfileType[] $profileType
  */
 class GetSellerProfilesRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\Types\BaseRequest
 {

@@ -19,7 +19,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
- * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroup $categoryGroup
+ * @property \DTS\eBaySDK\BusinessPoliciesManagement\Types\CategoryGroup[] $categoryGroup
  */
 class CategoryGroups extends \DTS\eBaySDK\Types\BaseType
 {
