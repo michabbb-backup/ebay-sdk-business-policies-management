@@ -1,6 +1,6 @@
 # EBAY-SDK-BUSINESS-POLICIES-MANAGEMENT
 
-[![Build Status](https://travis-ci.org/davidtsadler/ebay-sdk-business-policies-management.svg?branch=develop)](https://travis-ci.org/davidtsadler/ebay-sdk-business-policies-management)
+[![Build Status](https://travis-ci.org/davidtsadler/ebay-sdk-business-policies-management.svg?branch=master)](https://travis-ci.org/davidtsadler/ebay-sdk-business-policies-management)
 
 This project enables PHP developers to use the [eBay API](https://go.developer.ebay.com/developers/ebay/documentation-tools/) in their PHP code, and build software using the [Business Policies Management](http://developer.ebay.com/Devzone/business-policies/Concepts/BusinessPoliciesAPIGuide.html) service. You can get started by [installing the SDK via Composer](http://devbay.net/sdk/guides/installation/) and by following the [Getting Started Guide](http://devbay.net/sdk/guides/getting-started/).
 
