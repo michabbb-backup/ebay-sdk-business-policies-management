@@ -73,6 +73,10 @@ class GetSellerProfilesRequest extends \DTS\eBaySDK\BusinessPoliciesManagement\T
             self::$xmlNamespaces[__CLASS__] = 'http://www.ebay.com/marketplace/selling/v1/services';
         }
 
+        if (!array_key_exists(__CLASS__, self::$requestXmlRootElementNames)) {
+            self::$requestXmlRootElementNames[__CLASS__] = 'getSellerProfilesRequest';
+        }
+
         $this->setValues(__CLASS__, $childValues);
     }
 }
