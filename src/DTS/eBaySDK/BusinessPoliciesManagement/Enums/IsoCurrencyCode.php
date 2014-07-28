@@ -31,9 +31,12 @@ class IsoCurrencyCode
     const C_BGN = 'BGN';
     const C_BMD = 'BMD';
     const C_BND = 'BND';
+    const C_BOB = 'BOB';
+    const C_BRL = 'BRL';
     const C_BSD = 'BSD';
     const C_CAD = 'CAD';
     const C_CHF = 'CHF';
+    const C_CLP = 'CLP';
     const C_CNY = 'CNY';
     const C_COP = 'COP';
     const C_CRC = 'CRC';
@@ -49,6 +52,7 @@ class IsoCurrencyCode
     const C_GRD = 'GRD';
     const C_GTQ = 'GTQ';
     const C_HKD = 'HKD';
+    const C_HNL = 'HNL';
     const C_HUF = 'HUF';
     const C_IDR = 'IDR';
     const C_IEP = 'IEP';
@@ -60,7 +64,9 @@ class IsoCurrencyCode
     const C_KRW = 'KRW';
     const C_KYD = 'KYD';
     const C_MVR = 'MVR';
+    const C_MXN = 'MXN';
     const C_MYR = 'MYR';
+    const C_NIO = 'NIO';
     const C_NLG = 'NLG';
     const C_NOK = 'NOK';
     const C_NZD = 'NZD';
@@ -68,8 +74,10 @@ class IsoCurrencyCode
     const C_PHP = 'PHP';
     const C_PLN = 'PLN';
     const C_PTE = 'PTE';
+    const C_PYG = 'PYG';
     const C_QAR = 'QAR';
     const C_RON = 'RON';
+    const C_RUB = 'RUB';
     const C_RUR = 'RUR';
     const C_SAR = 'SAR';
     const C_SEK = 'SEK';
