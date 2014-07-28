@@ -6,7 +6,7 @@ CHANGELOG
 
 ### Updates
 
-* Bring up to date with changes in WSDL. ([5895b7e](https://github.com/davidtsadler/ebay-sdk-finding/commit/5895b7e267b4415ba3d526a8bca5e6e3ccb1a24c)) [David T. Sadler]
+* Bring up to date with changes in WSDL. ([5895b7e](https://github.com/davidtsadler/ebay-sdk-business-policies-management/commit/5895b7e267b4415ba3d526a8bca5e6e3ccb1a24c)) [David T. Sadler]
 
 0.1.1 (2014-07-05)
 ------------------
