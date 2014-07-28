@@ -19,6 +19,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 
 /**
  *
+ * @property boolean $EligibleForPickupDropOff
  * @property boolean $GlobalShipping
  * @property integer $dispatchTimeMax
  * @property string $dispatchTimeReason
@@ -45,6 +46,12 @@ class ShippingPolicyInfo extends \DTS\eBaySDK\Types\BaseType
      * @var array Properties belonging to objects of this class.
      */
     private static $propertyTypes = array(
+        'EligibleForPickupDropOff' => array(
+            'type' => 'boolean',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'EligibleForPickupDropOff'
+        ),
         'GlobalShipping' => array(
             'type' => 'boolean',
             'unbound' => false,

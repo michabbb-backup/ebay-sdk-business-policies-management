@@ -20,6 +20,7 @@ namespace DTS\eBaySDK\BusinessPoliciesManagement\Types;
 /**
  *
  * @property string $description
+ * @property string $holidayReturns
  * @property string $refundOption
  * @property string $restockingFeeValue
  * @property string $returnsAcceptedOption
@@ -40,6 +41,12 @@ class ReturnPolicyInfo extends \DTS\eBaySDK\Types\BaseType
             'unbound' => false,
             'attribute' => false,
             'elementName' => 'description'
+        ),
+        'holidayReturns' => array(
+            'type' => 'string',
+            'unbound' => false,
+            'attribute' => false,
+            'elementName' => 'holidayReturns'
         ),
         'refundOption' => array(
             'type' => 'string',
