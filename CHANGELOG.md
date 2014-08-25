@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+0.1.3 (2014-08-25)
+------------------
+
+### Documentation
+
+* Update requirements to recommend 64 bit systems. ([076a97e](https://github.com/davidtsadler/ebay-sdk-business-policies-management/commit/076a97e3b42cd445b3fd5663ff2dc8510da5ea5c)) [David T. Sadler]
+
 0.1.2 (2014-07-28)
 ------------------
 
