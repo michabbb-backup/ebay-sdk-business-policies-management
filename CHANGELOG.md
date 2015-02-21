@@ -1,22 +1,24 @@
-CHANGELOG
-=========
+# CHANGELOG
 
-0.1.3 (2014-08-25)
-------------------
+## Unreleased
+
+### Features
+
+* Allow manual installation of SDK via PHP Phar or Zip archive.
+
+## 0.1.3 - 2014-08-25
 
 ### Documentation
 
 * Update requirements to recommend 64 bit systems. ([076a97e](https://github.com/davidtsadler/ebay-sdk-business-policies-management/commit/076a97e3b42cd445b3fd5663ff2dc8510da5ea5c)) [David T. Sadler]
 
-0.1.2 (2014-07-28)
-------------------
+## 0.1.2 - 2014-07-28
 
 ### Updates
 
 * Bring up to date with changes in WSDL. ([5895b7e](https://github.com/davidtsadler/ebay-sdk-business-policies-management/commit/5895b7e267b4415ba3d526a8bca5e6e3ccb1a24c)) [David T. Sadler]
 
-0.1.1 (2014-07-05)
-------------------
+## 0.1.1 - 2014-07-05
 
 ### Refactoring
 
