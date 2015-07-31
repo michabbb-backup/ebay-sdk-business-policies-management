@@ -27,5 +27,8 @@
             "DTS\\eBaySDK\\BusinessPoliciesManagement\\": "src/",
             "DTS\\eBaySDK\\BusinessPoliciesManagement\\Mocks\\": "test/"
         }
+    },
+    "suggest": {
+        "dts/ebay-sdk-php": "The SDK has moved to a new package name. The package you have installed, ebay-sdk-business-policies-management, is deprecated and will reach its end of life on the 6th December 2015."
     }
 }
